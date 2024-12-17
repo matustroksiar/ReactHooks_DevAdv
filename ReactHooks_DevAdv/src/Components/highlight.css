@@ -1,0 +1,90 @@
+/* highlight.css */
+/* Light theme for highlighting code */
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f8f8f8;
+  }
+  
+  .hljs-comment,
+  .hljs-quote {
+    color: #998;
+    font-style: italic;
+  }
+  
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-subst {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .hljs-literal,
+  .hljs-number,
+  .hljs-tag .hljs-attr {
+    color: #008080;
+  }
+  
+  .hljs-string,
+  .hljs-doctag {
+    color: #d14;
+  }
+  
+  .hljs-title,
+  .hljs-section,
+  .hljs-built_in,
+  .hljs-preprocessor {
+    color: #900;
+  }
+  
+  .hljs-title,
+  .hljs-section {
+    font-weight: bold;
+  }
+  
+  .hljs-regexp,
+  .hljs-symbol,
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-link {
+    color: #880;
+  }
+  
+  .hljs-selector-attr,
+  .hljs-selector-pseudo,
+  .hljs-type {
+    color: #606;
+  }
+  
+  .hljs-selector-id {
+    color: #9b703f;
+    font-weight: bold;
+  }
+  
+  .hljs-selector-class {
+    color: #d14;
+    font-weight: bold;
+  }
+  
+  .hljs-meta {
+    color: #1f7199;
+  }
+  
+  .hljs-deletion {
+    background: #fdd;
+  }
+  
+  .hljs-addition {
+    background: #dfd;
+  }
+  
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  
+  .hljs-strong {
+    font-weight: bold;
+  }
+  
