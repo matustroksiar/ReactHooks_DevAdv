@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './UseStateComponent1.scss';
 
 export const UseStateComponent1 = () => {
   // useState is a React Hook that lets you add a state variable to your component.
@@ -44,7 +45,7 @@ export const UseStateComponent1 = () => {
   };
 
   return (
-    <div className="demo-container">
+    <div className="use-state-component-container">
       <button onClick={decrementCount}>-</button>
       <span>{count}</span>
       <button onClick={incrementCount}>+</button>
