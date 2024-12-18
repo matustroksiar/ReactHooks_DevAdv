@@ -8,11 +8,14 @@ export const Layout = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/useStateDemo1">UseState Demo1</Link>
+            <Link to="/useStateDemo1">UseState Demo 1</Link>
           </li>
-          {/* <li>
-            <Link to="/contact">Contact</Link>
-          </li> */}
+          <li>
+            <Link to="/useStateDemo2">UseState Demo 2</Link>
+          </li>
+          <li>
+            <Link to="/useStateDemo3">UseState Demo 3</Link>
+          </li>
         </ul>
       </nav>
       <Outlet />

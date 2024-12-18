@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './UseStateComponent1.scss';
+import './UseStateComponent.scss';
 
 export const UseStateComponent1 = () => {
   // useState is a React Hook that lets you add a state variable to your component.
