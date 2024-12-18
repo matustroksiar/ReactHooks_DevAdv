@@ -1,12 +1,13 @@
 import "./App.css";
-import { UseStateDemo1 } from "./Components/Demos/UseStateDemos/UseStateDemo1";
+import { BrowserRouter,  } from "react-router-dom";
+import { AppRoutes } from "./Components/Shared/AppRoutes";
+
 
 function App() {
-
   return (
-    <>
-      <UseStateDemo1 />
-    </>
+    <BrowserRouter>
+    <AppRoutes />
+  </BrowserRouter>
   );
 }
 
