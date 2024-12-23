@@ -1,0 +1,44 @@
+// UseStateComponent1.scss
+
+.use-state-component-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #e0e7ee;
+    }
+  
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+  
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+      }
+    }
+  
+    span {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      margin: 0 15px;
+    }
+  }
